@@ -1,0 +1,3 @@
+set(__QT_DEPLOY_TARGET_PortSniffer_FILE D:/REPOS/PortSniffer/build/Desktop_Qt_6_11_1_static_MinGW_w64_MINGW64_MSYS2_Debug/PortSniffer.exe)
+set(__QT_DEPLOY_TARGET_PortSniffer_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_PortSniffer_RUNTIME_DLLS )

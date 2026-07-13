@@ -39,15 +39,9 @@ target_link_libraries(PortSniffer PRIVATE
     C:/msys64/mingw64/lib/libpthread.a
 )
 
-install(TARGETS PortSniffer
-    BUNDLE  DESTINATION .
-    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
-    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+# Статическая линковка системных библиотек
+target_link_options(PortSniffer PRIVATE
+    -static
+    -static-libgcc
+    -static-libstdc++
 )
-
-qt_generate_deploy_app_script(
-    TARGET PortSniffer
-    OUTPUT_SCRIPT deploy_script
-    NO_UNSUPPORTED_PLATFORM_ERROR
-)
-install(SCRIPT ${deploy_script})

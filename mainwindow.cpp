@@ -48,11 +48,23 @@ void MainWindow::loadInterfaces() {
     auto interfaces = Tins::NetworkInterface::all();
 
     for (const auto& iface : interfaces) {
+        if (!iface.is_up()) continue;
+        try {
+            Tins::Sniffer test(iface.name());
+        } catch (...) {
+            continue;
+        }
         QString name = QString::fromStdString(iface.name());
-        bool up = iface.is_up();
-
-        QString displayName = name + (up ? " [UP]" : " [DOWN]");
+        QString displayName = name;
         ui->ifaceComboBox->addItem(displayName, name);
+    }
+
+    if (ui->ifaceComboBox->count() == 0) {
+        ui->ifaceComboBox->addItem("No accessable interfaces");
+        ui->ifaceComboBox->setEnabled(false);
+        ui->StartPushButton->setEnabled(false);
+        ui->StopPushButton->setEnabled(false);
+        ui->PausePushButton->setEnabled(false);
     }
 }
 
@@ -60,34 +72,37 @@ void MainWindow::on_StartPushButton_clicked() {
     on_StopPushButton_clicked();
 
     QString iface = ui->ifaceComboBox->currentData().toString();
-    if (!thread) {
-        thread = new QThread();
-        worker = new SnifferWorker();
-        worker->moveToThread(thread);
+    if (iface.isEmpty()) return;
 
-        connect(worker, &SnifferWorker::packetCaptured, this, &MainWindow::onPacketCaptured);
-        connect(worker, &SnifferWorker::startRequested, worker, &SnifferWorker::startSniffing);
-        connect(thread, &QThread::finished, worker, &QObject::deleteLater);
+    thread = new QThread();
+    worker = new SnifferWorker();
+    worker->moveToThread(thread);
 
-        thread->start();
-    }
+    connect(worker, &SnifferWorker::packetCaptured, this, &MainWindow::onPacketCaptured);
+    connect(worker, &SnifferWorker::startRequested, worker, &SnifferWorker::startSniffing);
 
-    emit worker->startRequested(iface);
-}
+    connect(thread, &QThread::finished, worker, &QObject::deleteLater);
+    connect(thread, &QThread::finished, thread, &QObject::deleteLater);
 
-void MainWindow::on_PausePushButton_clicked() {
-    if (worker)
-        worker->togglePause();
+    connect(thread, &QThread::started, this, [this, iface]() {
+        if (worker)
+            emit worker->startRequested(iface);
+    });
+
+    thread->start();
 }
 
 void MainWindow::on_StopPushButton_clicked() {
     if (worker) {
         worker->stopSniffing();
-        thread->quit();
-        thread->wait();
-        worker = nullptr;
-        thread = nullptr;
     }
+    worker = nullptr;
+    thread = nullptr;
+}
+
+void MainWindow::on_PausePushButton_clicked() {
+    if (worker)
+        worker->togglePause();
 }
 
 void MainWindow::on_IPPushButton_clicked() {

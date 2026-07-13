@@ -1,0 +1,233 @@
+{
+	"abstract" : true,
+	"backtrace" : 32,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"find_package",
+			"qt_find_package_system_or_bundled",
+			"__find_dependency_common",
+			"find_dependency",
+			"_qt_internal_find_third_party_dependencies",
+			"include",
+			"__qt_internal_include_plugin_packages",
+			"_qt_internal_find_qt_dependencies"
+		],
+		"files" : 
+		[
+			"C:/msys64/mingw64/share/cmake/Modules/FindJPEG.cmake",
+			"build/Desktop_Qt_6_11_1_static_MinGW_w64_MINGW64_MSYS2_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake",
+			"C:/msys64/mingw64/qt6-static/lib/cmake/Qt6/FindWrapSystemJpeg.cmake",
+			"C:/msys64/mingw64/qt6-static/lib/cmake/Qt6/QtFindWrapHelper.cmake",
+			"C:/msys64/mingw64/qt6-static/lib/cmake/Qt6/FindWrapJpeg.cmake",
+			"C:/msys64/mingw64/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
+			"C:/msys64/mingw64/qt6-static/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"C:/msys64/mingw64/qt6-static/lib/cmake/Qt6Gui/Qt6QJpegPluginDependencies.cmake",
+			"C:/msys64/mingw64/qt6-static/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake",
+			"C:/msys64/mingw64/qt6-static/lib/cmake/Qt6/QtPublicPluginHelpers.cmake",
+			"C:/msys64/mingw64/qt6-static/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake",
+			"C:/msys64/mingw64/qt6-static/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"C:/msys64/mingw64/qt6-static/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
+			"C:/msys64/mingw64/qt6-static/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 14,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 235,
+				"parent" : 1
+			},
+			{
+				"file" : 13,
+				"parent" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 13,
+				"line" : 40,
+				"parent" : 3
+			},
+			{
+				"file" : 12,
+				"parent" : 4
+			},
+			{
+				"command" : 8,
+				"file" : 12,
+				"line" : 50,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 142,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 125,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 93,
+				"parent" : 8
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 254,
+				"parent" : 9
+			},
+			{
+				"file" : 11,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 11,
+				"line" : 196,
+				"parent" : 11
+			},
+			{
+				"file" : 10,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 10,
+				"line" : 13,
+				"parent" : 13
+			},
+			{
+				"command" : 6,
+				"file" : 9,
+				"line" : 515,
+				"parent" : 14
+			},
+			{
+				"file" : 8,
+				"parent" : 15
+			},
+			{
+				"command" : 6,
+				"file" : 8,
+				"line" : 40,
+				"parent" : 16
+			},
+			{
+				"file" : 7,
+				"parent" : 17
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 9,
+				"parent" : 18
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 36,
+				"parent" : 19
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 125,
+				"parent" : 20
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 93,
+				"parent" : 21
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 283,
+				"parent" : 22
+			},
+			{
+				"file" : 4,
+				"parent" : 23
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 6,
+				"parent" : 24
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 87,
+				"parent" : 25
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 283,
+				"parent" : 26
+			},
+			{
+				"file" : 2,
+				"parent" : 27
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 28
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 283,
+				"parent" : 29
+			},
+			{
+				"file" : 0,
+				"parent" : 30
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 148,
+				"parent" : 31
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"id" : "JPEG::JPEG::@6890427a1f51a3e7e1df",
+	"imported" : true,
+	"local" : true,
+	"name" : "JPEG::JPEG",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UNKNOWN_LIBRARY"
+}

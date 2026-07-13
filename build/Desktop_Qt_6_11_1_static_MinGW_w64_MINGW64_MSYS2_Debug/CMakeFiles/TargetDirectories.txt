@@ -1,0 +1,5 @@
+D:/REPOS/PortSniffer/build/Desktop_Qt_6_11_1_static_MinGW_w64_MINGW64_MSYS2_Debug/CMakeFiles/PortSniffer.dir
+D:/REPOS/PortSniffer/build/Desktop_Qt_6_11_1_static_MinGW_w64_MINGW64_MSYS2_Debug/CMakeFiles/edit_cache.dir
+D:/REPOS/PortSniffer/build/Desktop_Qt_6_11_1_static_MinGW_w64_MINGW64_MSYS2_Debug/CMakeFiles/rebuild_cache.dir
+D:/REPOS/PortSniffer/build/Desktop_Qt_6_11_1_static_MinGW_w64_MINGW64_MSYS2_Debug/CMakeFiles/PortSniffer_autogen_timestamp_deps.dir
+D:/REPOS/PortSniffer/build/Desktop_Qt_6_11_1_static_MinGW_w64_MINGW64_MSYS2_Debug/CMakeFiles/PortSniffer_autogen.dir
