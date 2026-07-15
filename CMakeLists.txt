@@ -5,10 +5,12 @@ find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets)
 
 qt_standard_project_setup()
 
+set(EXTERNAL_DIR "${CMAKE_SOURCE_DIR}/external")
+
 add_library(tins STATIC IMPORTED)
 set_target_properties(tins PROPERTIES
-    IMPORTED_LOCATION "${CMAKE_SOURCE_DIR}/external/libtins/lib/libtins.a"
-    INTERFACE_INCLUDE_DIRECTORIES "${CMAKE_SOURCE_DIR}/external/libtins/include"
+    IMPORTED_LOCATION "${EXTERNAL_DIR}/libtins/lib/libtins.a"
+    INTERFACE_INCLUDE_DIRECTORIES "${EXTERNAL_DIR}/libtins/include"
     INTERFACE_COMPILE_DEFINITIONS "TINS_STATIC"
 )
 
@@ -28,18 +30,16 @@ target_link_libraries(PortSniffer PRIVATE
     Qt::Core
     Qt::Widgets
     tins
-    ${CMAKE_SOURCE_DIR}/external/npcap/lib/libwpcap.a
-    ${CMAKE_SOURCE_DIR}/external/npcap/lib/libPacket.a
-    C:/msys64/mingw64/lib/libws2_32.a
-    C:/msys64/mingw64/lib/libiphlpapi.a
-    C:/msys64/mingw64/lib/libssl.dll.a
-    C:/msys64/mingw64/lib/libcrypto.dll.a
-    C:/msys64/mingw64/lib/libcrypt32.a
-    C:/msys64/mingw64/lib/libntdll.a
-    C:/msys64/mingw64/lib/libpthread.a
+    ${EXTERNAL_DIR}/npcap/lib/libwpcap.a
+    ${EXTERNAL_DIR}/npcap/lib/libPacket.a
+    ${EXTERNAL_DIR}/openssl/libssl.a
+    ${EXTERNAL_DIR}/openssl/libcrypto.a
+    ws2_32
+    iphlpapi
+    crypt32
+    ntdll
 )
 
-# Статическая линковка системных библиотек
 target_link_options(PortSniffer PRIVATE
     -static
     -static-libgcc

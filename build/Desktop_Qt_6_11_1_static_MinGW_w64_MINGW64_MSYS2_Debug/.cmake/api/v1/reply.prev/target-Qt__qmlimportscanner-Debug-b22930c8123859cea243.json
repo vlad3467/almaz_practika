@@ -1,0 +1,288 @@
+{
+	"abstract" : true,
+	"artifacts" : 
+	[
+		{
+			"path" : "C:/msys64/mingw64/qt6-static/share/qt6/bin/qmlimportscanner.exe"
+		}
+	],
+	"backtrace" : 41,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"include",
+			"find_package",
+			"_qt_internal_find_tool_dependencies",
+			"__find_dependency_common",
+			"find_dependency",
+			"_qt_internal_find_qt_dependencies",
+			"__qt_internal_include_plugin_packages"
+		],
+		"files" : 
+		[
+			"C:/msys64/mingw64/qt6-static/lib/cmake/Qt6QmlTools/Qt6QmlToolsVersionlessTargets.cmake",
+			"C:/msys64/mingw64/qt6-static/lib/cmake/Qt6QmlTools/Qt6QmlToolsConfig.cmake",
+			"build/Desktop_Qt_6_11_1_static_MinGW_w64_MINGW64_MSYS2_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake",
+			"C:/msys64/mingw64/qt6-static/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"C:/msys64/mingw64/qt6-static/lib/cmake/Qt6Qml/Qt6QmlDependencies.cmake",
+			"C:/msys64/mingw64/qt6-static/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake",
+			"C:/msys64/mingw64/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
+			"C:/msys64/mingw64/qt6-static/lib/cmake/Qt6VirtualKeyboard/Qt6VirtualKeyboardDependencies.cmake",
+			"C:/msys64/mingw64/qt6-static/lib/cmake/Qt6VirtualKeyboard/Qt6VirtualKeyboardConfig.cmake",
+			"C:/msys64/mingw64/qt6-static/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginDependencies.cmake",
+			"C:/msys64/mingw64/qt6-static/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake",
+			"C:/msys64/mingw64/qt6-static/lib/cmake/Qt6/QtPublicPluginHelpers.cmake",
+			"C:/msys64/mingw64/qt6-static/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake",
+			"C:/msys64/mingw64/qt6-static/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"C:/msys64/mingw64/qt6-static/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
+			"C:/msys64/mingw64/qt6-static/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 16
+			},
+			{
+				"command" : 2,
+				"file" : 16,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 235,
+				"parent" : 1
+			},
+			{
+				"file" : 15,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 15,
+				"line" : 40,
+				"parent" : 3
+			},
+			{
+				"file" : 14,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 14,
+				"line" : 50,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 142,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 125,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 93,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 254,
+				"parent" : 9
+			},
+			{
+				"file" : 13,
+				"parent" : 10
+			},
+			{
+				"command" : 1,
+				"file" : 13,
+				"line" : 196,
+				"parent" : 11
+			},
+			{
+				"file" : 12,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 12,
+				"line" : 13,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 11,
+				"line" : 515,
+				"parent" : 14
+			},
+			{
+				"file" : 10,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 10,
+				"line" : 40,
+				"parent" : 16
+			},
+			{
+				"file" : 9,
+				"parent" : 17
+			},
+			{
+				"command" : 6,
+				"file" : 9,
+				"line" : 22,
+				"parent" : 18
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 142,
+				"parent" : 19
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 125,
+				"parent" : 20
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 93,
+				"parent" : 21
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 254,
+				"parent" : 22
+			},
+			{
+				"file" : 8,
+				"parent" : 23
+			},
+			{
+				"command" : 1,
+				"file" : 8,
+				"line" : 40,
+				"parent" : 24
+			},
+			{
+				"file" : 7,
+				"parent" : 25
+			},
+			{
+				"command" : 6,
+				"file" : 7,
+				"line" : 50,
+				"parent" : 26
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 142,
+				"parent" : 27
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 125,
+				"parent" : 28
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 93,
+				"parent" : 29
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 254,
+				"parent" : 30
+			},
+			{
+				"file" : 5,
+				"parent" : 31
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 43,
+				"parent" : 32
+			},
+			{
+				"file" : 4,
+				"parent" : 33
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 42,
+				"parent" : 34
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 100,
+				"parent" : 35
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 254,
+				"parent" : 36
+			},
+			{
+				"file" : 1,
+				"parent" : 37
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 59,
+				"parent" : 38
+			},
+			{
+				"file" : 0,
+				"parent" : 39
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 40
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"id" : "Qt::qmlimportscanner::@6890427a1f51a3e7e1df",
+	"imported" : true,
+	"name" : "Qt::qmlimportscanner",
+	"nameOnDisk" : "qmlimportscanner.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "EXECUTABLE"
+}

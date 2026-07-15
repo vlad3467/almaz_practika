@@ -1,11 +1,17 @@
 # ninja log v7
-37	435	8056674197930326	PortSniffer_autogen/timestamp	43c400310860ade4
-37	435	8056674197930326	PortSniffer_autogen/mocs_compilation.cpp	43c400310860ade4
-37	435	8056674197930326	D:/REPOS/PortSniffer/build/Desktop_Qt_6_11_1_static_MinGW_w64_MINGW64_MSYS2_Debug/PortSniffer_autogen/timestamp	43c400310860ade4
-37	435	8056674197930326	D:/REPOS/PortSniffer/build/Desktop_Qt_6_11_1_static_MinGW_w64_MINGW64_MSYS2_Debug/PortSniffer_autogen/mocs_compilation.cpp	43c400310860ade4
+45	138	8058176326336092	PortSniffer_autogen/timestamp	43c400310860ade4
+45	138	8058176326336092	PortSniffer_autogen/mocs_compilation.cpp	43c400310860ade4
+45	138	8058176326336092	D:/REPOS/PortSniffer/build/Desktop_Qt_6_11_1_static_MinGW_w64_MINGW64_MSYS2_Debug/PortSniffer_autogen/timestamp	43c400310860ade4
+45	138	8058176326336092	D:/REPOS/PortSniffer/build/Desktop_Qt_6_11_1_static_MinGW_w64_MINGW64_MSYS2_Debug/PortSniffer_autogen/mocs_compilation.cpp	43c400310860ade4
 457	1880	8056674198384871	CMakeFiles/PortSniffer.dir/packetbuffer.cpp.obj	7665d9f726d902c0
 450	1967	8056674198384871	CMakeFiles/PortSniffer.dir/main.cpp.obj	d6cc34db9eb3468a
 447	2071	8056674198384871	CMakeFiles/PortSniffer.dir/PortSniffer_autogen/mocs_compilation.cpp.obj	d9d47141dcb2dd1
 455	2572	8056674198384871	CMakeFiles/PortSniffer.dir/snifferworker.cpp.obj	887ee0ede3e3a7c5
-452	3233	8056674198384871	CMakeFiles/PortSniffer.dir/mainwindow.cpp.obj	72be04bdb9f98557
-3234	5185	8056674226261963	PortSniffer.exe	b12a14856ad18c85
+139	2638	8058176327278986	CMakeFiles/PortSniffer.dir/mainwindow.cpp.obj	72be04bdb9f98557
+2638	4287	8058176352208726	PortSniffer.exe	71a6517f208350c6
+47	134	8058186610415656	PortSniffer_autogen/timestamp	43c400310860ade4
+47	134	8058186610415656	PortSniffer_autogen/mocs_compilation.cpp	43c400310860ade4
+47	134	8058186610415656	D:/REPOS/PortSniffer/build/Desktop_Qt_6_11_1_static_MinGW_w64_MINGW64_MSYS2_Debug/PortSniffer_autogen/timestamp	43c400310860ade4
+47	134	8058186610415656	D:/REPOS/PortSniffer/build/Desktop_Qt_6_11_1_static_MinGW_w64_MINGW64_MSYS2_Debug/PortSniffer_autogen/mocs_compilation.cpp	43c400310860ade4
+135	2660	8058186611360224	CMakeFiles/PortSniffer.dir/mainwindow.cpp.obj	72be04bdb9f98557
+2660	4293	8058186636588416	PortSniffer.exe	71a6517f208350c6
